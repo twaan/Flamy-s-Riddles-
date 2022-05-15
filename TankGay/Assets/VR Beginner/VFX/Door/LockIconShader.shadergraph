@@ -1392,6 +1392,8 @@
         "m_GuidSerialized": "2025621c-b5f9-42b2-bca1-d0b398993acd"
     },
     "m_Name": "FadeAmount",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_B3DFE82F",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -3066,6 +3068,8 @@
         "m_GuidSerialized": "5560c14b-e4fd-4083-ae5b-5f8934a093a4"
     },
     "m_Name": "Color",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_CCA0BA5F",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,

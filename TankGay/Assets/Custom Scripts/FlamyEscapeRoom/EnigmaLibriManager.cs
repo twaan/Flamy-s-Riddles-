@@ -32,11 +32,21 @@ public class EnigmaLibriManager : MonoBehaviour
         ControlloProgressoEnigmaQuadri();
     }
 
+    private void OnRipiano1Incorrect()
+    {
+        ripiano1Corretto = false;
+    }
+
     public void OnRipiano2Correct()
     {
         OnRipiano2.Invoke();
         ripiano2Corretto = true;
         ControlloProgressoEnigmaQuadri();
+    }
+
+    private void OnRipiano2Incorrect()
+    {
+        ripiano2Corretto = false;
     }
 
     public void OnRipiano3Correct()
@@ -46,17 +56,33 @@ public class EnigmaLibriManager : MonoBehaviour
         ControlloProgressoEnigmaQuadri();
     }
 
+    private void OnRipiano3Incorrect()
+    {
+        ripiano3Corretto = false;
+    }
+
     public void OnRipiano4Correct()
     {
         OnRipiano4.Invoke();
         ripiano3Corretto = true;
         ControlloProgressoEnigmaQuadri();
     }
+
+    private void OnRipiano4Incorrect()
+    {
+        ripiano4Corretto = false;
+    }
+
     public void OnRipiano5Correct()
     {
         OnRipiano5.Invoke();
         ripiano3Corretto = true;
         ControlloProgressoEnigmaQuadri();
+    }
+
+    private void OnRipiano5Incorrect()
+    {
+        ripiano4Corretto = false;
     }
 
     public void ControlloProgressoEnigmaQuadri()

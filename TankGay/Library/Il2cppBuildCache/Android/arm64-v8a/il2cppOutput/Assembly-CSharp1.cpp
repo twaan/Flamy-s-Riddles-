@@ -23480,6 +23480,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano1Correct_m24
 		return;
 	}
 }
+// System.Void EnigmaLibriManager::OnRipiano1Incorrect()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano1Incorrect_mC3BB4B3660043DF2C6A30243E46998BD3A86D68D (EnigmaLibriManager_tB9AC82818095057483B5905F438773DE9113B746 * __this, const RuntimeMethod* method)
+{
+	{
+		// ripiano1Corretto = false;
+		__this->set_ripiano1Corretto_11((bool)0);
+		// }
+		return;
+	}
+}
 // System.Void EnigmaLibriManager::OnRipiano2Correct()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano2Correct_mC48746AAD5FFACC0B4C7AC750A10AEF98A28E067 (EnigmaLibriManager_tB9AC82818095057483B5905F438773DE9113B746 * __this, const RuntimeMethod* method)
 {
@@ -23492,6 +23502,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano2Correct_mC4
 		__this->set_ripiano2Corretto_12((bool)1);
 		// ControlloProgressoEnigmaQuadri();
 		EnigmaLibriManager_ControlloProgressoEnigmaQuadri_m75B9F1128D77E86F4F457FFDD6257F8A432AD741(__this, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void EnigmaLibriManager::OnRipiano2Incorrect()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano2Incorrect_mA09B335E03C8882B46FE4482C53AA6292E53BA20 (EnigmaLibriManager_tB9AC82818095057483B5905F438773DE9113B746 * __this, const RuntimeMethod* method)
+{
+	{
+		// ripiano2Corretto = false;
+		__this->set_ripiano2Corretto_12((bool)0);
 		// }
 		return;
 	}
@@ -23512,6 +23532,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano3Correct_m51
 		return;
 	}
 }
+// System.Void EnigmaLibriManager::OnRipiano3Incorrect()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano3Incorrect_m9E8298CAF721E48D8B023673EB3DBE572F8C4DB8 (EnigmaLibriManager_tB9AC82818095057483B5905F438773DE9113B746 * __this, const RuntimeMethod* method)
+{
+	{
+		// ripiano3Corretto = false;
+		__this->set_ripiano3Corretto_13((bool)0);
+		// }
+		return;
+	}
+}
 // System.Void EnigmaLibriManager::OnRipiano4Correct()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano4Correct_m68335022793976BF8F476DDA6205853EDF7D6734 (EnigmaLibriManager_tB9AC82818095057483B5905F438773DE9113B746 * __this, const RuntimeMethod* method)
 {
@@ -23528,6 +23558,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano4Correct_m68
 		return;
 	}
 }
+// System.Void EnigmaLibriManager::OnRipiano4Incorrect()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano4Incorrect_mF18C3CFD746A953E0D8A26A958709CA910A62700 (EnigmaLibriManager_tB9AC82818095057483B5905F438773DE9113B746 * __this, const RuntimeMethod* method)
+{
+	{
+		// ripiano4Corretto = false;
+		__this->set_ripiano4Corretto_14((bool)0);
+		// }
+		return;
+	}
+}
 // System.Void EnigmaLibriManager::OnRipiano5Correct()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano5Correct_m9D35775808633F6852B478CE8504D19840F1F520 (EnigmaLibriManager_tB9AC82818095057483B5905F438773DE9113B746 * __this, const RuntimeMethod* method)
 {
@@ -23540,6 +23580,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano5Correct_m9D
 		__this->set_ripiano3Corretto_13((bool)1);
 		// ControlloProgressoEnigmaQuadri();
 		EnigmaLibriManager_ControlloProgressoEnigmaQuadri_m75B9F1128D77E86F4F457FFDD6257F8A432AD741(__this, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void EnigmaLibriManager::OnRipiano5Incorrect()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnigmaLibriManager_OnRipiano5Incorrect_m3D17AA37BEA822D79C3B4E49B321EA298678453F (EnigmaLibriManager_tB9AC82818095057483B5905F438773DE9113B746 * __this, const RuntimeMethod* method)
+{
+	{
+		// ripiano4Corretto = false;
+		__this->set_ripiano4Corretto_14((bool)0);
 		// }
 		return;
 	}

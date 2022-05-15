@@ -11,6 +11,7 @@ TagManager:
   - BookYellow
   - BookGreen
   - RUNA
+  - PaintingA
   layers:
   - Default
   - TransparentFX
