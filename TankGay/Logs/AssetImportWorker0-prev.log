@@ -1,0 +1,1224 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.14f1 (51d2f824827f) revision 5362424'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.1706; Version 2009; 64bit' Language: 'it' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/marc1/OneDrive/Desktop/Flamy-s-Riddles-/TankGay
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59128
+Successfully changed project path to: C:/Users/marc1/OneDrive/Desktop/Flamy-s-Riddles-/TankGay
+C:/Users/marc1/OneDrive/Desktop/Flamy-s-Riddles-/TankGay
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 122.76 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.68 ms.
+Initialize engine version: 2021.1.14f1 (51d2f824827f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marc1/OneDrive/Desktop/Flamy-s-Riddles-/TankGay/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001922 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 123.82 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.475 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1475ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (137ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (124ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007659 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marc1\OneDrive\Desktop\Flamy-s-Riddles-\TankGay\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marc1\OneDrive\Desktop\Flamy-s-Riddles-\TankGay\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 126.67 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\marc1\OneDrive\Desktop\Flamy-s-Riddles-\TankGay\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\marc1\OneDrive\Desktop\Flamy-s-Riddles-\TankGay\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <f9051bbfec05422cad88da502b7617ba>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.305 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1306ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1131ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 5660 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.5 MB.
+System memory in use after: 234.9 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 6143.
+Total: 3.176800 ms (FindLiveObjects: 0.353400 ms CreateObjectMapping: 0.293700 ms MarkObjects: 2.397300 ms  DeleteObjects: 0.131800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffdad2642c9fa08e98734f820a6023c') in 0.028650 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.58 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.4 MB.
+System memory in use after: 112.8 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 6143.
+Total: 2.928700 ms (FindLiveObjects: 0.336500 ms CreateObjectMapping: 0.264400 ms MarkObjects: 2.278600 ms  DeleteObjects: 0.048700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008151 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marc1\OneDrive\Desktop\Flamy-s-Riddles-\TankGay\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marc1\OneDrive\Desktop\Flamy-s-Riddles-\TankGay\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\marc1\OneDrive\Desktop\Flamy-s-Riddles-\TankGay\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\marc1\OneDrive\Desktop\Flamy-s-Riddles-\TankGay\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <f9051bbfec05422cad88da502b7617ba>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1139ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.15 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 5471 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.0 MB.
+System memory in use after: 214.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 6146.
+Total: 3.972900 ms (FindLiveObjects: 0.412200 ms CreateObjectMapping: 0.395400 ms MarkObjects: 3.046800 ms  DeleteObjects: 0.117500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5532.297265 seconds.
+  path: Assets/FUTURA BOOK FONT.TTF
+  artifactKey: Guid(353417576b26e4c42adc74cc596468e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FUTURA BOOK FONT.TTF using Guid(353417576b26e4c42adc74cc596468e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f869dec42c2b2305cc31679ee23099c') in 0.281500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/FUTURA BOOK ITALIC FONT.TTF
+  artifactKey: Guid(8ee5a339fe1ffa9419a9cada3f492f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FUTURA BOOK ITALIC FONT.TTF using Guid(8ee5a339fe1ffa9419a9cada3f492f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a958c374ea02c3d15c847f8ca7303a9') in 0.042895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.870768 seconds.
+  path: Assets/VR Beginner/VFX/Door/LockIcon.mat
+  artifactKey: Guid(198674ca0d4a7384b815a7b95b7a577e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/VFX/Door/LockIcon.mat using Guid(198674ca0d4a7384b815a7b95b7a577e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb17d8f2deb026c37b0d59d45aabd22d') in 0.066056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.708282 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(4afe921794de8ee48a0ef4ad8617d20a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/New Material.mat using Guid(4afe921794de8ee48a0ef4ad8617d20a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0ced1229504fa824cde90e7248661fa7') in 0.056947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Graphs/RespawnAssetInOriginal place.asset
+  artifactKey: Guid(3d0f8c12f3df42b4e94fbf24977b887a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Graphs/RespawnAssetInOriginal place.asset using Guid(3d0f8c12f3df42b4e94fbf24977b887a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'de55883d3a4582b365a544a352f41206') in 0.620720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/VR Beginner/VFX/Sparks/Sparks.mat
+  artifactKey: Guid(c1f09c5971ce45e458742250afd3ba2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/VFX/Sparks/Sparks.mat using Guid(c1f09c5971ce45e458742250afd3ba2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7eaa9ba29cd8d3fc30e20893e224b235') in 0.006707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Graphs/CiocchiDetector.asset
+  artifactKey: Guid(291ec947089124c4d97b9a218cdbeb56) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Graphs/CiocchiDetector.asset using Guid(291ec947089124c4d97b9a218cdbeb56) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9e83a81a13a8c302819a58c441c4ece7') in 0.178204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/VR Beginner/Materials/SkyboxBlue.mat
+  artifactKey: Guid(95426e3e34c84d94a8f6c2d1db6df984) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Materials/SkyboxBlue.mat using Guid(95426e3e34c84d94a8f6c2d1db6df984) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '092ea0abb94de76b3755014a48d93eb4') in 0.007747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE/Lightmap-0_comp_light.exr
+  artifactKey: Guid(2555cf27a8ca13c4099d53f24da45f6f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE/Lightmap-0_comp_light.exr using Guid(2555cf27a8ca13c4099d53f24da45f6f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '99d7642da6e9b44047cd6339900277ac') in 0.100862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Multistory Dungeons 2/Meshes/SRC_Props/Candles_05.fbx
+  artifactKey: Guid(3bd9b56765ed4e049f0714d927c8da39) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2/Meshes/SRC_Props/Candles_05.fbx using Guid(3bd9b56765ed4e049f0714d927c8da39) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '95e3979c40b0233095279c3e4f9123b2') in 0.035184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(a422e2a2e6c83184e9b23d6413331359) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(a422e2a2e6c83184e9b23d6413331359) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2ba4cdc7a3fe5775634f2231a3390afe') in 0.016013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Stylize Metal Texture/Materials
+  artifactKey: Guid(855350d72edd5b546aba24877b32789a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stylize Metal Texture/Materials using Guid(855350d72edd5b546aba24877b32789a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '28a84c41b4e3f06ec4b6181674ec0228') in 0.008038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Flow
+  artifactKey: Guid(4150754b1bf6527468fe365e90ad907a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Flow using Guid(4150754b1bf6527468fe365e90ad907a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7430bf51cc9398e1b655149dec50de14') in 0.006980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE/ReflectionProbe-2.exr
+  artifactKey: Guid(e198b4303c6ac2b47ad7677891834f82) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE/ReflectionProbe-2.exr using Guid(e198b4303c6ac2b47ad7677891834f82) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e8d358c96269c7fda83070713de08498') in 0.008060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Multistory Dungeons 2/Meshes/SRC_Props/Candles_04.fbx
+  artifactKey: Guid(45c85ab68b334017a3339aa92e775c94) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2/Meshes/SRC_Props/Candles_04.fbx using Guid(45c85ab68b334017a3339aa92e775c94) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'df0ffed27a7251962b052a4d5ad7710d') in 0.007641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/VR Beginner/Scripts/Gameplay/MagicReceiverNotCalderon.cs
+  artifactKey: Guid(bf2a22fbb977e864fac85ecdefda0e5f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Scripts/Gameplay/MagicReceiverNotCalderon.cs using Guid(bf2a22fbb977e864fac85ecdefda0e5f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '11d31bee84c5ac7907647a73ba4f1751') in 0.015834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Stylize Metal Texture/Textures/Vol_18_2_Roughness.png
+  artifactKey: Guid(adbe2161991a33b4aaa26a80320ef8ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stylize Metal Texture/Textures/Vol_18_2_Roughness.png using Guid(adbe2161991a33b4aaa26a80320ef8ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9c81836844d26ebd19e5971c6b3f7ead') in 0.020619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/VR Beginner/VFX/Smoke & Fire/SmokeBurst.vfx
+  artifactKey: Guid(25ad7cb45fc73244782fc2d9300e3ddf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/VFX/Smoke & Fire/SmokeBurst.vfx using Guid(25ad7cb45fc73244782fc2d9300e3ddf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '465d977480335b745e3b564d35af69fa') in 0.324617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Stylize Metal Texture/Textures/Vol_18_2_Ambient_Occlusion.png
+  artifactKey: Guid(0bccb8e54e844424998c479c2a77080d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stylize Metal Texture/Textures/Vol_18_2_Ambient_Occlusion.png using Guid(0bccb8e54e844424998c479c2a77080d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a694760e40ec664483dff4dbc68de003') in 0.012340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Multistory Dungeons 2/Textures/Materials
+  artifactKey: Guid(2b6850630fbc4874594b12b7290bd55e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2/Textures/Materials using Guid(2b6850630fbc4874594b12b7290bd55e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'defb73ff149ae39b01baf15eec0e119c') in 0.007161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE
+  artifactKey: Guid(6e756b299b95bf743828e2620c2e0c5f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE using Guid(6e756b299b95bf743828e2620c2e0c5f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '379dd961c5f4b13e0ba050020cad5033') in 0.016545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(d93c70ddbcac4dd45899067efa98c41d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/XR/Loaders using Guid(d93c70ddbcac4dd45899067efa98c41d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b5790a84b53e959269382909ce2193a7') in 0.006505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/VR Beginner/Prefabs/System/XR Rig.prefab
+  artifactKey: Guid(d45e8a6999317d2428a51593da44d3ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Prefabs/System/XR Rig.prefab using Guid(d45e8a6999317d2428a51593da44d3ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1f37f8c216375a03d29fd0ffff95057a') in 0.012869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/VR Beginner/Animations/Door Sequence/DOOR.controller
+  artifactKey: Guid(dadf56aeca0ea2842b7f4daa651c1a4a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Animations/Door Sequence/DOOR.controller using Guid(dadf56aeca0ea2842b7f4daa651c1a4a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a5b699e7040a249900c511857c15454f') in 0.007954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Custom Scripts/FlamyEscapeRoom/EnigmaCiocchiManager.cs
+  artifactKey: Guid(8c4e670a453bb2140add0aead37ab51b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Custom Scripts/FlamyEscapeRoom/EnigmaCiocchiManager.cs using Guid(8c4e670a453bb2140add0aead37ab51b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '477eb980afb6b2fd0424829a2b6234c8') in 0.007453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/XR
+  artifactKey: Guid(3fd577680b3fda248a01d16545ee234d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/XR using Guid(3fd577680b3fda248a01d16545ee234d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '992d81097bb694280b9d08d0d10cda94') in 0.007355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core
+  artifactKey: Guid(8581e25ad8ad67f438323884be6a38bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core using Guid(8581e25ad8ad67f438323884be6a38bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3a84ca116b766a7803b83deba7270636') in 0.006906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/XR/Settings
+  artifactKey: Guid(32e5b832ff2e86b49984354f0da10dbe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/XR/Settings using Guid(32e5b832ff2e86b49984354f0da10dbe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b5340150d909c0258919807a33450e5a') in 0.007263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE/Lightmap-1_comp_light.exr
+  artifactKey: Guid(3ac8d40967b79a948b302baed5617247) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE/Lightmap-1_comp_light.exr using Guid(3ac8d40967b79a948b302baed5617247) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9dd7cc6fa115b4009803aeda3661b39b') in 0.006724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Stylize Metal Texture/Textures/Vol_18_2_Normal.png
+  artifactKey: Guid(f0021e75e6bb30145bd307a3509523ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stylize Metal Texture/Textures/Vol_18_2_Normal.png using Guid(f0021e75e6bb30145bd307a3509523ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '935f9016755575d55b16a7c93e231049') in 0.013155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE/Lightmap-0_comp_dir.png
+  artifactKey: Guid(5363bb0c97dc2de438dc8e5f0041497d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE/Lightmap-0_comp_dir.png using Guid(5363bb0c97dc2de438dc8e5f0041497d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '66e9e13e43ec742b617b9659ac5c3999') in 0.006784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Stylize Metal Texture/Textures/Vol_18_2_Base_Color.png
+  artifactKey: Guid(84fd05a26a79e1a4187f1e9dc620cff9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stylize Metal Texture/Textures/Vol_18_2_Base_Color.png using Guid(84fd05a26a79e1a4187f1e9dc620cff9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ad6c333661b37b6419dd14e2abc76935') in 0.007909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE/ReflectionProbe-3.exr
+  artifactKey: Guid(02030f7152a425043960d0174e47ee8f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE/ReflectionProbe-3.exr using Guid(02030f7152a425043960d0174e47ee8f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '469d173b5e4d286f34d7ca93fc33a904') in 0.007127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/VR Beginner/VFX/Outline/TheMaterialOutline.mat
+  artifactKey: Guid(1912cf3f8f6b9c644bbf1d004c946284) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/VFX/Outline/TheMaterialOutline.mat using Guid(1912cf3f8f6b9c644bbf1d004c946284) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '25f9923666e6bef429ae5a59df66da30') in 0.007020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(cd82429419a133c409e92b088d5cd451) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes using Guid(cd82429419a133c409e92b088d5cd451) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'aff54a5ecf63d8810ac56221b84d2c9e') in 0.011816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Multistory Dungeons 2/Meshes/SRC_Props/Candle_01.fbx
+  artifactKey: Guid(aa0d00c3df2c498ba1e54bc47aa4bda9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2/Meshes/SRC_Props/Candle_01.fbx using Guid(aa0d00c3df2c498ba1e54bc47aa4bda9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '41b3263df48d47da2f31b99e596de5aa') in 0.010292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Multistory Dungeons 2/Textures
+  artifactKey: Guid(fc4d1c48af827794bb8101e8104f1f69) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2/Textures using Guid(fc4d1c48af827794bb8101e8104f1f69) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9902b93628703f96b449f89211486456') in 0.007875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/VR Beginner/Materials/greenliquid.mat
+  artifactKey: Guid(f5d45bc1d2cb66b49a693c5bf6e4a180) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Materials/greenliquid.mat using Guid(f5d45bc1d2cb66b49a693c5bf6e4a180) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd9317900ff0dab1c6dbd28e6d0d219fb') in 0.006953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/VR Beginner/VFX/Door/Forcefield.mat
+  artifactKey: Guid(adbff525439b9e044afc648706867b84) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/VFX/Door/Forcefield.mat using Guid(adbff525439b9e044afc648706867b84) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2ae3539374f66a912946ca87326270c9') in 0.007893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Stylize Metal Texture/Materials/Stylize Metal Diffuse.mat
+  artifactKey: Guid(32db39bfc38054f47a8710c65f5c474f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stylize Metal Texture/Materials/Stylize Metal Diffuse.mat using Guid(32db39bfc38054f47a8710c65f5c474f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '14fae414c4de38aa421eeaa0a22b711b') in 0.007435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/VR Beginner/Scenes/Final/EscapeRoom 1.unity
+  artifactKey: Guid(deddbd5b988f5bc46a20a1f2f93e1d25) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Scenes/Final/EscapeRoom 1.unity using Guid(deddbd5b988f5bc46a20a1f2f93e1d25) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3a4b6033291f11a54ac02bc9d5298bf4') in 0.008193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE/LightingData.asset
+  artifactKey: Guid(b4934474f81c408418f06dc62d68f528) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE/LightingData.asset using Guid(b4934474f81c408418f06dc62d68f528) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9ac594a962ea4092fb6f62e7a9115e83') in 0.007015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/System/TeleportReticle.prefab
+  artifactKey: Guid(2ed38cd6755f763469944dc94449ee0a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/System/TeleportReticle.prefab using Guid(2ed38cd6755f763469944dc94449ee0a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9a34a62114568f6f5218a4ab60363c89') in 0.017411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Custom Scripts/FlamyEscapeRoom/PlayerProgressManager.cs
+  artifactKey: Guid(e532c01fa8c96c74481aa6d84844dcab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Custom Scripts/FlamyEscapeRoom/PlayerProgressManager.cs using Guid(e532c01fa8c96c74481aa6d84844dcab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0528de9e3b86b9a010eaf3c20c14c2b5') in 0.007863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Stylize Metal Texture
+  artifactKey: Guid(b1af24783f3d8234692b96262fdce2e4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stylize Metal Texture using Guid(b1af24783f3d8234692b96262fdce2e4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '608bc8698004870efde789fc5907e8fa') in 0.006724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/VR Beginner/Materials/Fuse.mat
+  artifactKey: Guid(3a5b60aad7ea6b64b857c3bfc3c15738) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Materials/Fuse.mat using Guid(3a5b60aad7ea6b64b857c3bfc3c15738) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5f78d4bafee1cfd639c22d85d121141f') in 0.007255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/FUTURA BOOK FONT.TTF
+  artifactKey: Guid(353417576b26e4c42adc74cc596468e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/FUTURA BOOK FONT.TTF using Guid(353417576b26e4c42adc74cc596468e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'af95cb46db45a8484a650c559bd56846') in 0.008709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Custom Scripts/FlamyEscapeRoom
+  artifactKey: Guid(3a6c2971f22c6564286c612bf76b2c35) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Custom Scripts/FlamyEscapeRoom using Guid(3a6c2971f22c6564286c612bf76b2c35) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2dbb9bdfa420385ffdbd2741bf917a0e') in 0.008018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/VR PROJECT.unity
+  artifactKey: Guid(fc04f7627dcbfcb4f957cc82ca638768) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR PROJECT.unity using Guid(fc04f7627dcbfcb4f957cc82ca638768) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8304fe194dda538144ee25dd3f7349d9') in 0.006908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/VR Beginner/VFX/Door/LockIconShader.shadergraph
+  artifactKey: Guid(442c2c8731c1ca042a261383c1b4e0b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/VFX/Door/LockIconShader.shadergraph using Guid(442c2c8731c1ca042a261383c1b4e0b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b12499b4278c131d4e6c46cf41f5489a') in 0.008652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE/ReflectionProbe-0.exr
+  artifactKey: Guid(a80b0f55d3bef554181a8a2c3f50f717) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE/ReflectionProbe-0.exr using Guid(a80b0f55d3bef554181a8a2c3f50f717) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '67408381f58552ae5765c723fcbc2558') in 0.006661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Stylize Metal Texture/Textures
+  artifactKey: Guid(70867da6bf5f23744b22677a580e0ad7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stylize Metal Texture/Textures using Guid(70867da6bf5f23744b22677a580e0ad7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0b3c25a634041aec9daf3cce896f4e45') in 0.007147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Multistory Dungeons 2/Textures/Materials/Atlas_Props_02.mat
+  artifactKey: Guid(e4f418a18b804f87a364a935f5632aef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2/Textures/Materials/Atlas_Props_02.mat using Guid(e4f418a18b804f87a364a935f5632aef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd3ac0b75bf4f2b707f5d591c65551afd') in 0.012081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE/Lightmap-1_comp_dir.png
+  artifactKey: Guid(dd65b4270695bf14e80488ca1e2bf92a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE/Lightmap-1_comp_dir.png using Guid(dd65b4270695bf14e80488ca1e2bf92a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7fdad34c23675be33714550d0f1e9efe') in 0.007367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/XR/Settings/Open XR Package Settings.asset
+  artifactKey: Guid(07a9ee58a0c074c428efff65c5a4f857) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/XR/Settings/Open XR Package Settings.asset using Guid(07a9ee58a0c074c428efff65c5a4f857) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '12764dacf2249323ddd221c697b361e2') in 0.055265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Multistory Dungeons 2/Meshes/SRC_Props
+  artifactKey: Guid(f64694a3dfd06eb4485eb7db3f266d4d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2/Meshes/SRC_Props using Guid(f64694a3dfd06eb4485eb7db3f266d4d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f0a3db49511c6e64a968897b531d23ba') in 0.007704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Multistory Dungeons 2/Meshes/SRC_Props/Candle_03.fbx
+  artifactKey: Guid(6ab8b1a90cf24fad82ef8f5222543c83) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2/Meshes/SRC_Props/Candle_03.fbx using Guid(6ab8b1a90cf24fad82ef8f5222543c83) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2fdd22a3b282d8a11106770f4095b656') in 0.009532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Unity.VisualScripting.Generated
+  artifactKey: Guid(a523360e55947b14991f735b764eae0b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated using Guid(a523360e55947b14991f735b764eae0b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '08465fa046b33f3a8c7fb07f45744114') in 0.007013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/VR Beginner/Materials/TheMaterial.mat
+  artifactKey: Guid(b087163334465c846aaae5f8ba363f50) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Materials/TheMaterial.mat using Guid(b087163334465c846aaae5f8ba363f50) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7819f55104bf8a06dad2ee3ffba0a341') in 0.007747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/VR Beginner/Data/UniversalRenderPipelineAssetDesktop.asset
+  artifactKey: Guid(0106d0b55d9a5494495b6f30e3bda253) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Data/UniversalRenderPipelineAssetDesktop.asset using Guid(0106d0b55d9a5494495b6f30e3bda253) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '474096a23643fec3113e090462fdd6a9') in 0.007149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/VR Beginner/Scenes/Final/EscapeRoom.unity
+  artifactKey: Guid(0f290611f0f8be4419d06b71aba4e36a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Scenes/Final/EscapeRoom.unity using Guid(0f290611f0f8be4419d06b71aba4e36a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '22ff4cc9d5bd7916d4584839a2ff4f23') in 0.013218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Multistory Dungeons 2/Textures/Materials/Atlas_Props_01.mat
+  artifactKey: Guid(e8d858f4dafd40318a65052911414e45) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2/Textures/Materials/Atlas_Props_01.mat using Guid(e8d858f4dafd40318a65052911414e45) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c8fa8037122d7f3521ea76d3111d589a') in 0.007655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/VR Beginner/Materials/Mug.mat
+  artifactKey: Guid(56c602ef423139e4a974fdaec2a4eafa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Materials/Mug.mat using Guid(56c602ef423139e4a974fdaec2a4eafa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4097670deda3a521c69a95f74db71c29') in 0.008896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE/ReflectionProbe-4.exr
+  artifactKey: Guid(0fc005975e2f4434d92fefcc86f924f7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE/ReflectionProbe-4.exr using Guid(0fc005975e2f4434d92fefcc86f924f7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '797eabc636c28b1666ad607521948e0a') in 0.007349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Custom Scripts/FlamyEscapeRoom/EnigmaLibriManager.cs
+  artifactKey: Guid(6de8cb03d5e4ad040be88a5d2815e02f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Custom Scripts/FlamyEscapeRoom/EnigmaLibriManager.cs using Guid(6de8cb03d5e4ad040be88a5d2815e02f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '56e6fa0b79a630c143f3b8211a3ac488') in 0.008089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/VR Beginner/VFX/Door/LockIcon.mat
+  artifactKey: Guid(198674ca0d4a7384b815a7b95b7a577e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/VFX/Door/LockIcon.mat using Guid(198674ca0d4a7384b815a7b95b7a577e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a8fa05cb649c0d89c0517f78df36c65a') in 0.006599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/VR Beginner/Prefabs/FuseSlot (1).prefab
+  artifactKey: Guid(0d95ab555c918ed4cb28f92a187dd1f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Prefabs/FuseSlot (1).prefab using Guid(0d95ab555c918ed4cb28f92a187dd1f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b4766a5810b3e0045a5b9a70bedefe54') in 0.008135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Custom Scripts
+  artifactKey: Guid(8877a17008f5932459177d5f4fe03a99) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Custom Scripts using Guid(8877a17008f5932459177d5f4fe03a99) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '324530e9c0a303b30ca0f8a020b7cc0e') in 0.006833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Custom Scripts/FlamyEscapeRoom/EnigmaQuadriManager.cs
+  artifactKey: Guid(53c732d6ab1c1f342975babf2cf25986) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Custom Scripts/FlamyEscapeRoom/EnigmaQuadriManager.cs using Guid(53c732d6ab1c1f342975babf2cf25986) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '67ea5bb419ad0de40fb71cb4510d6d2d') in 0.007876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/VR Beginner/Data/UniversalRenderPipelineAssetMobile.asset
+  artifactKey: Guid(374f7e499f78367429c6f28e2a42ca61) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Data/UniversalRenderPipelineAssetMobile.asset using Guid(374f7e499f78367429c6f28e2a42ca61) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4058f997acc43a957a19c88a01f77e15') in 0.008130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/VR Beginner/VFX/FireBoy/Candles flames.vfx
+  artifactKey: Guid(fb1b3a55ae903b640b25764c10ea357d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/VFX/FireBoy/Candles flames.vfx using Guid(fb1b3a55ae903b640b25764c10ea357d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3b1324b3c9d3bd05526225ebbdf75086') in 0.900133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/FUTURA BOOK ITALIC FONT.TTF
+  artifactKey: Guid(8ee5a339fe1ffa9419a9cada3f492f2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/FUTURA BOOK ITALIC FONT.TTF using Guid(8ee5a339fe1ffa9419a9cada3f492f2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f798c429048b2cdef0f5aac5d167cd8b') in 0.010484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/VR Beginner/Scenes/Final/PrototypeScene.unity
+  artifactKey: Guid(5ff136f1bfd1b4f439ebe94b8ca30146) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Scenes/Final/PrototypeScene.unity using Guid(5ff136f1bfd1b4f439ebe94b8ca30146) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ea5c2e9c46421f9986bfd72c62bb9b81') in 0.007219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/VR Beginner/Scenes/Final/EscapeRoom 1/LightingData.asset
+  artifactKey: Guid(ce14624c91d82024780736f59626e0f9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Scenes/Final/EscapeRoom 1/LightingData.asset using Guid(ce14624c91d82024780736f59626e0f9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a03da55da7683483e106281aae3d477a') in 0.007297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/VR Beginner/VFX/FireBoy/FireBoy 1.vfx
+  artifactKey: Guid(9ea2d214f5fd8c24995c9c05ee2905e9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/VFX/FireBoy/FireBoy 1.vfx using Guid(9ea2d214f5fd8c24995c9c05ee2905e9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b06e819fdc72d8cfdd4937e71a24c9da') in 0.817836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/VR Beginner/Scenes/Final/EscapeRoom 1
+  artifactKey: Guid(f8c5abe5b48e1ad419281cd85eb6ade6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Scenes/Final/EscapeRoom 1 using Guid(f8c5abe5b48e1ad419281cd85eb6ade6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7f07aa0f3a61fe278f23e56d386b1ceb') in 0.007956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/VR Beginner/Prefabs/EscapeRoom/Lights.prefab
+  artifactKey: Guid(d7ef83178df60b5478603626bb9c7335) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Prefabs/EscapeRoom/Lights.prefab using Guid(d7ef83178df60b5478603626bb9c7335) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cb160586ddb0aafe37e8cd5f0b548c39') in 0.007114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/VR Beginner/Scenes/Final/EscapeRoom/PostProcessing_Profile.asset
+  artifactKey: Guid(7cd79d86d8be5e44c931d702e8c3cb8f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Scenes/Final/EscapeRoom/PostProcessing_Profile.asset using Guid(7cd79d86d8be5e44c931d702e8c3cb8f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '159660f88e872a4805a5fc937c3d5e51') in 0.009999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE_Profiles/PostFX Profile.asset
+  artifactKey: Guid(4d97056925eb84448a37f2dbdd50042a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE_Profiles/PostFX Profile.asset using Guid(4d97056925eb84448a37f2dbdd50042a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '60dd29cca09ead742a35d48f841248ae') in 0.011230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/VR Beginner/Textures/TheMaterial/TheMaterialBase.png
+  artifactKey: Guid(28e1f20ca87041c42b4f28e6f1bea508) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Textures/TheMaterial/TheMaterialBase.png using Guid(28e1f20ca87041c42b4f28e6f1bea508) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a4da582468ec031e0bff46bf493d85f2') in 0.007595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Custom Scripts/FlamyEscapeRoom/DialogueManager.cs
+  artifactKey: Guid(7c4610274dec49c448f1b1498507260a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Custom Scripts/FlamyEscapeRoom/DialogueManager.cs using Guid(7c4610274dec49c448f1b1498507260a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '405c45c8b467e62601eb49cb9ae5e94d') in 0.006990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE.unity
+  artifactKey: Guid(d7c9815cb9718524a811211510af50d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE.unity using Guid(d7c9815cb9718524a811211510af50d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '14d4cf224b41edb03a74994bf79dc99a') in 0.007934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Graphs/CheckPainting.asset
+  artifactKey: Guid(7e0b3f4b2ad1f96409e2f51a6a837706) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Graphs/CheckPainting.asset using Guid(7e0b3f4b2ad1f96409e2f51a6a837706) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6f5c7764f8cdd02123e5ef88d7469521') in 0.008552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/VR Beginner/Animations/Door Sequence/ExitDoorTimeline.playable
+  artifactKey: Guid(67a08861189b7874fac8b9dadcbeb9a7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Animations/Door Sequence/ExitDoorTimeline.playable using Guid(67a08861189b7874fac8b9dadcbeb9a7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '18e34564daaf503866f8b3a1101af1ca') in 0.045414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Graphs
+  artifactKey: Guid(49cd2902eb5ad5b448d2889c50fbf54a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Graphs using Guid(49cd2902eb5ad5b448d2889c50fbf54a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '821f34495fdb625cd2e6e779db464a77') in 0.007286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE_Profiles
+  artifactKey: Guid(048f3874073c18c40b7caa7ee2c1aab6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE_Profiles using Guid(048f3874073c18c40b7caa7ee2c1aab6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '62112d4bebd6e920d09d8a600c582c45') in 0.007827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Stylize Metal Texture/Textures/Vol_18_2_Height.png
+  artifactKey: Guid(e9705582760cdf64e8c1047a6f54d48e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stylize Metal Texture/Textures/Vol_18_2_Height.png using Guid(e9705582760cdf64e8c1047a6f54d48e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '82d5d8865ac79f3893dab8dfc5500553') in 0.007077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Stylize Metal Texture/Materials/Stylize Metal.mat
+  artifactKey: Guid(4190bd2c1ca0e9844a0cc93a84d083c1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Stylize Metal Texture/Materials/Stylize Metal.mat using Guid(4190bd2c1ca0e9844a0cc93a84d083c1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8270e822b6e366a140ba772e978944f2') in 0.018091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE/ReflectionProbe-1.exr
+  artifactKey: Guid(7f10443d2f7c7854a9a57522c49fc3b2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE/ReflectionProbe-1.exr using Guid(7f10443d2f7c7854a9a57522c49fc3b2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9ddf6f391ed0151c7d35f799c6fe522e') in 0.007205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Multistory Dungeons 2/Meshes/SRC_Props/Candles_03.fbx
+  artifactKey: Guid(10a60905fda14a07a7cbe0ec24898c54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2/Meshes/SRC_Props/Candles_03.fbx using Guid(10a60905fda14a07a7cbe0ec24898c54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '694c27addc562c5b1a3e0ec5892dc490') in 0.007694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Multistory Dungeons 2
+  artifactKey: Guid(54dc5e43c01ac604eb2def42084c9b9c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2 using Guid(54dc5e43c01ac604eb2def42084c9b9c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '096e30ae85c8c50c7a930ec13af39937') in 0.008135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Custom Scripts/FlamyEscapeRoom/EnigmaBersagliManager.cs
+  artifactKey: Guid(53b63d6e4401b244181e5e62588c539d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Custom Scripts/FlamyEscapeRoom/EnigmaBersagliManager.cs using Guid(53b63d6e4401b244181e5e62588c539d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1df920ecadda7ba76e3322ea39341c9b') in 0.007563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/VR Beginner/Prefabs/Quadro2.prefab
+  artifactKey: Guid(43a8707285f475244979440aa798835f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Prefabs/Quadro2.prefab using Guid(43a8707285f475244979440aa798835f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '24ec55869c930d17acb89ae32b46f6da') in 0.007405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/VR Beginner/Prefabs/posizione_quadro.prefab
+  artifactKey: Guid(3e6e887cec3191845b6fcf8c9432c839) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/Prefabs/posizione_quadro.prefab using Guid(3e6e887cec3191845b6fcf8c9432c839) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b60da50df8b1d017af387fdc47661e58') in 0.007482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Multistory Dungeons 2/Meshes/SRC_Props/Candle_04.fbx
+  artifactKey: Guid(f942b92b70de4cbf868373c831d161a8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2/Meshes/SRC_Props/Candle_04.fbx using Guid(f942b92b70de4cbf868373c831d161a8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bf1a6ec98bf309895afdf0ea2ec26fba') in 0.009048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Multistory Dungeons 2/Meshes
+  artifactKey: Guid(c054686bffe08574d88d04a6b8bca2f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Multistory Dungeons 2/Meshes using Guid(c054686bffe08574d88d04a6b8bca2f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '19675eb322dec90977cbe6a3f162265e') in 0.007891 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008946 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\marc1\OneDrive\Desktop\Flamy-s-Riddles-\TankGay\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\marc1\OneDrive\Desktop\Flamy-s-Riddles-\TankGay\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\marc1\OneDrive\Desktop\Flamy-s-Riddles-\TankGay\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\marc1\OneDrive\Desktop\Flamy-s-Riddles-\TankGay\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <f9051bbfec05422cad88da502b7617ba>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.481 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1481ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1250ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (460ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.73 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 5475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.2 MB.
+System memory in use after: 222.6 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 6262.
+Total: 8.759000 ms (FindLiveObjects: 0.654100 ms CreateObjectMapping: 0.826100 ms MarkObjects: 6.726700 ms  DeleteObjects: 0.550500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.383673 seconds.
+  path: Assets/VR Beginner/VFX/Door/Forcefield.mat
+  artifactKey: Guid(adbff525439b9e044afc648706867b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/VFX/Door/Forcefield.mat using Guid(adbff525439b9e044afc648706867b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bf17e29851c9290a80eff61e97a686') in 0.211305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.107877 seconds.
+  path: Assets/VR Beginner/VFX/Door
+  artifactKey: Guid(facf3187b4002c94ca02060c0cf34854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/VFX/Door using Guid(facf3187b4002c94ca02060c0cf34854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854920605b7f203925019023ae15d427') in 0.005425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.052152 seconds.
+  path: Assets/VR Beginner/VFX/Door/Forcefield 1.mat
+  artifactKey: Guid(ee2ddf61a9713184aa1126389f03aba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/VFX/Door/Forcefield 1.mat using Guid(ee2ddf61a9713184aa1126389f03aba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b603b33bedf76f8d429efdebecdf17c5') in 0.009943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.961635 seconds.
+  path: Assets/XR/Settings/Open XR Package Settings.asset
+  artifactKey: Guid(07a9ee58a0c074c428efff65c5a4f857) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/XR/Settings/Open XR Package Settings.asset using Guid(07a9ee58a0c074c428efff65c5a4f857) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd0c7d1680bf51707a8046ab59521fee2') in 0.079626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/VR Beginner/VFX/Door/LockIcon 1.mat
+  artifactKey: Guid(8301a8c90a8135b49ae0cabe20d1d260) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/VFX/Door/LockIcon 1.mat using Guid(8301a8c90a8135b49ae0cabe20d1d260) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '412ef77f3a5ad51b7c1307849bf8944f') in 0.007660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/VR Beginner/VFX/Door/Forcefield 1.mat
+  artifactKey: Guid(ee2ddf61a9713184aa1126389f03aba0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/VFX/Door/Forcefield 1.mat using Guid(ee2ddf61a9713184aa1126389f03aba0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4f60bf12af44b8e37edde1aa027437a4') in 0.007622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.349720 seconds.
+  path: Assets/VR Beginner/Animations/Door Sequence/ExitDoorTimeline.playable
+  artifactKey: Guid(67a08861189b7874fac8b9dadcbeb9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Animations/Door Sequence/ExitDoorTimeline.playable using Guid(67a08861189b7874fac8b9dadcbeb9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29791aa543324bf5ef2b956a11cff88f') in 0.013985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.425066 seconds.
+  path: Assets/VR Beginner/Animations/Door Sequence/DOOR.controller
+  artifactKey: Guid(dadf56aeca0ea2842b7f4daa651c1a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Animations/Door Sequence/DOOR.controller using Guid(dadf56aeca0ea2842b7f4daa651c1a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6802651a3e4400c2c419e432f1be446e') in 0.007131 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.91 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.9 MB.
+System memory in use after: 122.3 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 6290.
+Total: 43.453300 ms (FindLiveObjects: 0.795100 ms CreateObjectMapping: 0.319800 ms MarkObjects: 41.194200 ms  DeleteObjects: 1.143200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8699.542293 seconds.
+  path: Assets/VR Beginner/VFX/Door/LockIcon 1.mat
+  artifactKey: Guid(8301a8c90a8135b49ae0cabe20d1d260) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/VR Beginner/VFX/Door/LockIcon 1.mat using Guid(8301a8c90a8135b49ae0cabe20d1d260) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1e8cc31a97479780279429157fbcd02d') in 0.055005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/link.xml
+  artifactKey: Guid(f00176e90a1a88e468fa34bc1b403918) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/link.xml using Guid(f00176e90a1a88e468fa34bc1b403918) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '00000000000000000000000000000000') in 0.587655 seconds  code(4) message(Build asset version error: assets/unity.visualscripting.generated/visualscripting.core/link.xml in SourceAssetDB has modification time of '2022-05-15T15:35:13.4275532Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff633c2af6c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff633c31109 (Unity) StackWalker::ShowCallstack
+0x00007ff6344266d3 (Unity) GetStacktrace
+0x00007ff634559759 (Unity) GetAssetHashAndValidate
+0x00007ff634554dfa (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff6345530b7 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff63452dfc9 (Unity) CreateAssetVersionBuilder
+0x00007ff6345342d2 (Unity) ImportToObjects
+0x00007ff6345330a8 (Unity) ImportAsset
+0x00007ff6344d179f (Unity) AssetImportWorker::Import
+0x00007ff6344f47c2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff63457af42 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63457d1b0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63458089e (Unity) asio::io_service::run
+0x00007ff63451cd7a (Unity) RunAssetImportWorkerClientV2
+0x00007ff63451cdd0 (Unity) RunAssetImporterV2
+0x00007ff634020677 (Unity) Application::InitializeProject
+0x00007ff63442fd77 (Unity) WinMain
+0x00007ff635f5f402 (Unity) __scrt_common_main_seh
+0x00007ff884387034 (KERNEL32) BaseThreadInitThunk
+0x00007ff886122651 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/unity.visualscripting.generated/visualscripting.core/link.xml in SourceAssetDB has modification time of '2022-05-15T15:35:13.4275532Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff633c2af6c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff633c31109 (Unity) StackWalker::ShowCallstack
+0x00007ff6344266d3 (Unity) GetStacktrace
+0x00007ff634559759 (Unity) GetAssetHashAndValidate
+0x00007ff634554dfa (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff6345530b7 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff63452dfc9 (Unity) CreateAssetVersionBuilder
+0x00007ff6345342d2 (Unity) ImportToObjects
+0x00007ff6345330a8 (Unity) ImportAsset
+0x00007ff6344d179f (Unity) AssetImportWorker::Import
+0x00007ff6344f47c2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff63457af42 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63457d1b0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63458089e (Unity) asio::io_service::run
+0x00007ff63451cd7a (Unity) RunAssetImportWorkerClientV2
+0x00007ff63451cdd0 (Unity) RunAssetImporterV2
+0x00007ff634020677 (Unity) Application::InitializeProject
+0x00007ff63442fd77 (Unity) WinMain
+0x00007ff635f5f402 (Unity) __scrt_common_main_seh
+0x00007ff884387034 (KERNEL32) BaseThreadInitThunk
+0x00007ff886122651 (ntdll) RtlUserThreadStart
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Scenes/DEFINITIVE SCENE.unity
+  artifactKey: Guid(d7c9815cb9718524a811211510af50d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/DEFINITIVE SCENE.unity using Guid(d7c9815cb9718524a811211510af50d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '15c6e7f26c0082f391205dabfe504935') in 0.008862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs
+  artifactKey: Guid(ba179c1f09c75e248856b4ff22a49a28) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs using Guid(ba179c1f09c75e248856b4ff22a49a28) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '00000000000000000000000000000000') in 0.006992 seconds  code(4) message(Build asset version error: assets/unity.visualscripting.generated/visualscripting.core/aotstubs.cs in SourceAssetDB has modification time of '2022-05-15T15:35:24.5180787Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff633c2af6c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff633c31109 (Unity) StackWalker::ShowCallstack
+0x00007ff6344266d3 (Unity) GetStacktrace
+0x00007ff634559759 (Unity) GetAssetHashAndValidate
+0x00007ff634554dfa (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff6345530b7 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff63452dfc9 (Unity) CreateAssetVersionBuilder
+0x00007ff6345342d2 (Unity) ImportToObjects
+0x00007ff6345330a8 (Unity) ImportAsset
+0x00007ff6344d179f (Unity) AssetImportWorker::Import
+0x00007ff6344f47c2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff63457af42 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63457d1b0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63458089e (Unity) asio::io_service::run
+0x00007ff63451cd7a (Unity) RunAssetImportWorkerClientV2
+0x00007ff63451cdd0 (Unity) RunAssetImporterV2
+0x00007ff634020677 (Unity) Application::InitializeProject
+0x00007ff63442fd77 (Unity) WinMain
+0x00007ff635f5f402 (Unity) __scrt_common_main_seh
+0x00007ff884387034 (KERNEL32) BaseThreadInitThunk
+0x00007ff886122651 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/unity.visualscripting.generated/visualscripting.core/aotstubs.cs in SourceAssetDB has modification time of '2022-05-15T15:35:24.5180787Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff633c2af6c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff633c31109 (Unity) StackWalker::ShowCallstack
+0x00007ff6344266d3 (Unity) GetStacktrace
+0x00007ff634559759 (Unity) GetAssetHashAndValidate
+0x00007ff634554dfa (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff6345530b7 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff63452dfc9 (Unity) CreateAssetVersionBuilder
+0x00007ff6345342d2 (Unity) ImportToObjects
+0x00007ff6345330a8 (Unity) ImportAsset
+0x00007ff6344d179f (Unity) AssetImportWorker::Import
+0x00007ff6344f47c2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff63457af42 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63457d1b0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63458089e (Unity) asio::io_service::run
+0x00007ff63451cd7a (Unity) RunAssetImportWorkerClientV2
+0x00007ff63451cdd0 (Unity) RunAssetImporterV2
+0x00007ff634020677 (Unity) Application::InitializeProject
+0x00007ff63442fd77 (Unity) WinMain
+0x00007ff635f5f402 (Unity) __scrt_common_main_seh
+0x00007ff884387034 (KERNEL32) BaseThreadInitThunk
+0x00007ff886122651 (ntdll) RtlUserThreadStart
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.23 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.9 MB.
+System memory in use after: 122.3 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 6290.
+Total: 4.430500 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.300800 ms MarkObjects: 3.708300 ms  DeleteObjects: 0.053600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 122.259966 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs
+  artifactKey: Guid(ba179c1f09c75e248856b4ff22a49a28) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs using Guid(ba179c1f09c75e248856b4ff22a49a28) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '00000000000000000000000000000000') in 0.007508 seconds  code(4) message(Build asset version error: assets/unity.visualscripting.generated/visualscripting.core/aotstubs.cs in SourceAssetDB has modification time of '2022-05-15T15:40:13.7766413Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff633c2af6c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff633c31109 (Unity) StackWalker::ShowCallstack
+0x00007ff6344266d3 (Unity) GetStacktrace
+0x00007ff634559759 (Unity) GetAssetHashAndValidate
+0x00007ff634554dfa (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff6345530b7 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff63452dfc9 (Unity) CreateAssetVersionBuilder
+0x00007ff6345342d2 (Unity) ImportToObjects
+0x00007ff6345330a8 (Unity) ImportAsset
+0x00007ff6344d179f (Unity) AssetImportWorker::Import
+0x00007ff6344f47c2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff63457af42 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63457d1b0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63458089e (Unity) asio::io_service::run
+0x00007ff63451cd7a (Unity) RunAssetImportWorkerClientV2
+0x00007ff63451cdd0 (Unity) RunAssetImporterV2
+0x00007ff634020677 (Unity) Application::InitializeProject
+0x00007ff63442fd77 (Unity) WinMain
+0x00007ff635f5f402 (Unity) __scrt_common_main_seh
+0x00007ff884387034 (KERNEL32) BaseThreadInitThunk
+0x00007ff886122651 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/unity.visualscripting.generated/visualscripting.core/aotstubs.cs in SourceAssetDB has modification time of '2022-05-15T15:40:13.7766413Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff633c2af6c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff633c31109 (Unity) StackWalker::ShowCallstack
+0x00007ff6344266d3 (Unity) GetStacktrace
+0x00007ff634559759 (Unity) GetAssetHashAndValidate
+0x00007ff634554dfa (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff6345530b7 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff63452dfc9 (Unity) CreateAssetVersionBuilder
+0x00007ff6345342d2 (Unity) ImportToObjects
+0x00007ff6345330a8 (Unity) ImportAsset
+0x00007ff6344d179f (Unity) AssetImportWorker::Import
+0x00007ff6344f47c2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff63457af42 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63457d1b0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63458089e (Unity) asio::io_service::run
+0x00007ff63451cd7a (Unity) RunAssetImportWorkerClientV2
+0x00007ff63451cdd0 (Unity) RunAssetImporterV2
+0x00007ff634020677 (Unity) Application::InitializeProject
+0x00007ff63442fd77 (Unity) WinMain
+0x00007ff635f5f402 (Unity) __scrt_common_main_seh
+0x00007ff884387034 (KERNEL32) BaseThreadInitThunk
+0x00007ff886122651 (ntdll) RtlUserThreadStart
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/link.xml
+  artifactKey: Guid(f00176e90a1a88e468fa34bc1b403918) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/link.xml using Guid(f00176e90a1a88e468fa34bc1b403918) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '00000000000000000000000000000000') in 0.008385 seconds  code(4) message(Build asset version error: assets/unity.visualscripting.generated/visualscripting.core/link.xml in SourceAssetDB has modification time of '2022-05-15T15:40:10.0669488Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff633c2af6c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff633c31109 (Unity) StackWalker::ShowCallstack
+0x00007ff6344266d3 (Unity) GetStacktrace
+0x00007ff634559759 (Unity) GetAssetHashAndValidate
+0x00007ff634554dfa (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff6345530b7 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff63452dfc9 (Unity) CreateAssetVersionBuilder
+0x00007ff6345342d2 (Unity) ImportToObjects
+0x00007ff6345330a8 (Unity) ImportAsset
+0x00007ff6344d179f (Unity) AssetImportWorker::Import
+0x00007ff6344f47c2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff63457af42 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63457d1b0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63458089e (Unity) asio::io_service::run
+0x00007ff63451cd7a (Unity) RunAssetImportWorkerClientV2
+0x00007ff63451cdd0 (Unity) RunAssetImporterV2
+0x00007ff634020677 (Unity) Application::InitializeProject
+0x00007ff63442fd77 (Unity) WinMain
+0x00007ff635f5f402 (Unity) __scrt_common_main_seh
+0x00007ff884387034 (KERNEL32) BaseThreadInitThunk
+0x00007ff886122651 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/unity.visualscripting.generated/visualscripting.core/link.xml in SourceAssetDB has modification time of '2022-05-15T15:40:10.0669488Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff633c2af6c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff633c31109 (Unity) StackWalker::ShowCallstack
+0x00007ff6344266d3 (Unity) GetStacktrace
+0x00007ff634559759 (Unity) GetAssetHashAndValidate
+0x00007ff634554dfa (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff6345530b7 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff63452dfc9 (Unity) CreateAssetVersionBuilder
+0x00007ff6345342d2 (Unity) ImportToObjects
+0x00007ff6345330a8 (Unity) ImportAsset
+0x00007ff6344d179f (Unity) AssetImportWorker::Import
+0x00007ff6344f47c2 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
+0x00007ff63457af42 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff63457d1b0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff63458089e (Unity) asio::io_service::run
+0x00007ff63451cd7a (Unity) RunAssetImportWorkerClientV2
+0x00007ff63451cdd0 (Unity) RunAssetImporterV2
+0x00007ff634020677 (Unity) Application::InitializeProject
+0x00007ff63442fd77 (Unity) WinMain
+0x00007ff635f5f402 (Unity) __scrt_common_main_seh
+0x00007ff884387034 (KERNEL32) BaseThreadInitThunk
+0x00007ff886122651 (ntdll) RtlUserThreadStart
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
