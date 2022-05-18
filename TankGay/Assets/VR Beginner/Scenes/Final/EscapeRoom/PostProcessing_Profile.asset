@@ -16,13 +16,13 @@ MonoBehaviour:
   m_AdvancedMode: 0
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.8854805, z: 0.811061, w: -0.3736655}
+    m_Value: {x: 1, y: 0.8301944, z: 0.6875001, w: -0.20417398}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.96606547, z: 0.70722926, w: 0.069314}
+    m_Value: {x: 1, y: 0.9849015, z: 0.72027874, w: -0.6298386}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.98472404, z: 0.7671952, w: 0.39291725}
+    m_Value: {x: 1, y: 0.99340075, z: 0.75193095, w: 0.26579863}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
@@ -39,6 +39,65 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
     min: 0
+--- !u!114 &-2689863032594372983
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdfbdbb87d3286943a057f7791b43141, type: 3}
+  m_Name: ChannelMixer
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  redOutRedIn:
+    m_OverrideState: 1
+    m_Value: 94
+    min: -200
+    max: 200
+  redOutGreenIn:
+    m_OverrideState: 1
+    m_Value: 0
+    min: -200
+    max: 200
+  redOutBlueIn:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -200
+    max: 200
+  greenOutRedIn:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -200
+    max: 200
+  greenOutGreenIn:
+    m_OverrideState: 0
+    m_Value: 100
+    min: -200
+    max: 200
+  greenOutBlueIn:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -200
+    max: 200
+  blueOutRedIn:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -200
+    max: 200
+  blueOutGreenIn:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -200
+    max: 200
+  blueOutBlueIn:
+    m_OverrideState: 0
+    m_Value: 100
+    min: -200
+    max: 200
 --- !u!114 &-1723123407101713292
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -55,10 +114,10 @@ MonoBehaviour:
   m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 1
-    m_Value: -0.35
+    m_Value: -0.22
   contrast:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 16
     min: -100
     max: 100
   colorFilter:
@@ -74,7 +133,7 @@ MonoBehaviour:
     max: 180
   saturation:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 13
     min: -100
     max: 100
 --- !u!114 &11400000
@@ -92,3 +151,4 @@ MonoBehaviour:
   components:
   - {fileID: -1723123407101713292}
   - {fileID: -9043011174004925669}
+  - {fileID: -2689863032594372983}
