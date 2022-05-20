@@ -1,7 +1,4 @@
-Base path: 'D:/UNIty/2021.1.14f1/Editor/Data', plugins path 'D:/UNIty/2021.1.14f1/Editor/Data/PlaybackEngines'
+Base path: 'C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2021.1.14f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-
-Cmd: compileComputeKernel
-  insize=9820 file=C:/Users/Tancredi Cavallari/Desktop/Flamy's riddles/Flamy-s-Riddles-/Flamy-s-Riddles--main/Flamy/Assets/VR Beginner/VFX/Potions/PotionPop.vfx kernel=CSMain cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=202119> pKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_LIGHTMAP_DLDR_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=3851
 
 Cmd: shutdown

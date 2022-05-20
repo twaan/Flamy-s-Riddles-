@@ -1,0 +1,4 @@
+#Mon May 16 13:52:26 CEST 2022
+base.0=C\:\\Users\\emmal\\Desktop\\Flamy-s-Riddles-\\Flamys\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
