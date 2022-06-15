@@ -14,6 +14,10 @@ TagManager:
   - PaintingA
   - Flames
   - MagicMissile
+  - Pumpkin
+  - Ghost
+  - Meat
+  - Feather
   layers:
   - Default
   - TransparentFX
