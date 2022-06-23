@@ -285,6 +285,8 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.ProBuilder.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aP.dag/Unity.Recorder.Base.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aP.dag/Unity.Recorder.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.RenderPipelines.Core.ShaderLibrary.ref.dll"
